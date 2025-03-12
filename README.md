@@ -33,13 +33,13 @@ Conduct an analysis to understand participant demographics and evaluate individu
 
 ## Approach Used
 
-1. Data Wrangling
+1. Data Wrangling (Using Excel)
 The initial stage involves cleaning and structuring the data to ensure it is ready for analysis.
 
 Acquiring the Database:
 Data is collected by copying information directly from the website and pasting it into Excel to create a structured dataset. 
 
-2. Feature Engineering
+2. Feature Engineering (Using Python) 
 Feature engineering allows us to create new columns from existing data, adding more insights to the dataset.
 
 Fullname:
@@ -57,7 +57,7 @@ Add a column named "latlong" to combine latitude and longitude values, which wil
 3. Exploratory Data Analysis (EDA)
 Exploratory Data Analysis is conducted to explore the dataset and provide valuable insights that address the project's objectives and key questions.
 
-## Questions 
+## Answering Questions (Using SQL)
 
 ### Demographic Questions
 
@@ -66,3 +66,7 @@ Exploratory Data Analysis is conducted to explore the dataset and provide valuab
 3. What were the ages of the youngest and oldest participants in the race?
 4. What was the average time for each age group?
 5. Who were the top 3 male and female participants?
+
+## Visualization
+
+Create a dashboard to display participants' performance and demographics, providing future runners with insights into the training required for the race.

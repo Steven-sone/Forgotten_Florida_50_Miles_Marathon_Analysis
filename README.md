@@ -67,6 +67,6 @@ Exploratory Data Analysis is conducted to explore the dataset and provide valuab
 4. What was the average time for each age group?
 5. Who were the top 3 male and female participants?
 
-## Visualization
+## Visualization (Using Looker Studio)
 
 Create a dashboard to display participants' performance and demographics, providing future runners with insights into the training required for the race.

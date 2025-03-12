@@ -31,15 +31,15 @@ This project utilizes race data from the 2024 Forgotten Florida 50-Mile event, i
 1. Demographic Analysis
 Conduct an analysis to understand participant demographics and evaluate individual performance. The goal is to categorize participants based on their results and identify key trends and insights.
 
-## Approach Used
+## Approach Used (Using Excel and Python)
 
-1. Data Wrangling (Using Excel)
+1. Data Wrangling 
 The initial stage involves cleaning and structuring the data to ensure it is ready for analysis.
 
 Acquiring the Database:
 Data is collected by copying information directly from the website and pasting it into Excel to create a structured dataset. 
 
-2. Feature Engineering (Using Python) 
+2. Feature Engineering 
 Feature engineering allows us to create new columns from existing data, adding more insights to the dataset.
 
 Fullname:
@@ -49,7 +49,7 @@ Total_minutes:
 Add a column named "total_minutes" to represent the time in minutes instead of hours and minutes.
 
 Latitude and Longitude:
-Add two columns named "latitude" and "longitude" to capture geographic coordinates, which will later be combined into a "latlong" column.
+Add two columns named "latitude" and "longitude" to capture geographic coordinates from city and state columns which will later be combined into a "latlong" column.
 
 Latlong:
 Add a column named "latlong" to combine latitude and longitude values, which will be used later for visualization to pinpoint participants' locations in relation to the race.
